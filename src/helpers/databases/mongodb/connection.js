@@ -13,7 +13,7 @@ const connectToServer = (callback) => {
       return callback(err);
     }
 
-    dbConnection = db.db('belajar');
+    dbConnection = db.db(dbName);
     console.log('Successfully connected to MongoDB.');
     return callback();
   });
