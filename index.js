@@ -1,6 +1,3 @@
-// Loads the configuration from config.env to process.env
-require('dotenv').config({ path: './config.env' });
-
 const express = require('express');
 const cors = require('cors');
 const { messages } = require('./src/helpers/utils/response/response')

@@ -21,7 +21,6 @@ const connectToServer = (callback) => {
 
 const getDb = () => {
   return dbConnection;
-
 };
 
 module.exports = {
