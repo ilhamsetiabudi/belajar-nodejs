@@ -1,0 +1,28 @@
+{
+  "name": "belajar-nodejs",
+  "version": "1.0.0",
+  "description": "dibuat untuk belajar nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilhamsetiabudi/belajar-nodejs.git"
+  },
+  "keywords": [
+    "belajar-nodejs"
+  ],
+  "author": "Ilham Setiabudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilhamsetiabudi/belajar-nodejs/issues"
+  },
+  "homepage": "https://github.com/ilhamsetiabudi/belajar-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
